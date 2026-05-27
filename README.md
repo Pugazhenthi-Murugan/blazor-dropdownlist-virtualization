@@ -1,19 +1,18 @@
 # Blazor Dropdownlist Virtualization Sample
 
-A compact sample demonstrating how to enable virtualization in the Blazor DropDownList component. This project shows a performant dropdown bound to a large data set using UI virtualization.
-
-**Live demo:** https://blazor.syncfusion.com/demos/dropdown-list/virtualization?theme=fluent
+A compact sample demonstrating how to enable virtualization in the [Blazor DropDownList](https://www.syncfusion.com/blazor-components/blazor-dropdown-list) component. This project shows a performant dropdown bound to a large data set using UI virtualization.
 
 ## Overview
 
-This sample illustrates how to configure and use virtualization with the [Blazor DropDownList](https://www.syncfusion.com/blazor-components/blazor-dropdown-list) component to efficiently render and interact with very large lists. Virtualization reduces memory and rendering work by creating DOM elements only for visible items.
+This sample illustrates how to configure and use virtualization with the Blazor DropDownList component to efficiently render and interact with very large lists. Virtualization reduces memory and rendering work by creating DOM elements only for visible items.
 
 ## Features
 
-- Lightweight example wiring `DropDownList` to a large data source
-- Client and server project structure for Blazor hosting models
-- Demonstrates keyboard interaction with virtualized lists
-- Minimal, easy-to-follow code suitable for adaptation
+- High-performance rendering optimized for large datasets
+- Efficient memory usage through UI virtualization techniques
+- Full keyboard navigation support for accessibility
+- Complete project structure supporting multiple deployment scenarios
+- Clean, straightforward implementation ready for real-world applications
 
 ## Prerequisites
 
@@ -37,9 +36,17 @@ cd blazor-hybrid-app-custom-form-validation
 3. Build the project to ensure there are no compilation errors.
 4. Run the project.
 
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run 
+```
+
 ## References
 
-- [Blazor component virtualization](
-https://learn.microsoft.com/en-us/aspnet/core/blazor/components/virtualization)
-
-- **Docs:** https://blazor.syncfusion.com/documentation/dropdown-list/virtualization#keyboard-interaction
+- Demo: https://blazor.syncfusion.com/demos/dropdown-list/virtualization?theme=fluent
+- Documentation: https://blazor.syncfusion.com/documentation/dropdown-list/virtualization#keyboard-interaction
